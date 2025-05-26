@@ -1,6 +1,6 @@
 function searchMovies(keyword) {
   $.ajax({
-    url: "http://www.omdbapi.com/",
+    url: "https://www.omdbapi.com/",
     data: {
       apikey: "874a7130",
       s: keyword,
@@ -40,7 +40,7 @@ function searchMovies(keyword) {
 
 function showMovieDetail(id) {
   $.ajax({
-    url: "http://www.omdbapi.com/",
+    url: "https://www.omdbapi.com/",
     data: {
       apikey: "874a7130",
       i: id,
