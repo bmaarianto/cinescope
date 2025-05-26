@@ -25,3 +25,11 @@
 
 - This project uses the OMDb API (http://www.omdbapi.com/). A free API key (apikey=874a7130) is included for demonstration purposes.
 - Note: You can get your own API key here and replace it in script.js.
+
+## 🌐 Live Demo
+
+<p align="center">
+  <a href="https://bmaarianto.github.io/cinescope/" target="_blank">
+    🔗 <strong>Live Demo</strong>
+  </a>
+</p>
