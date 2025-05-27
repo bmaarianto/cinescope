@@ -1,6 +1,6 @@
 # CineScope 🎬
 
-**CineScope** is a sleek, dark-mode movie search application built with HTML, Bootstrap 5, jQuery, and the [OMDb API](http://www.omdbapi.com/). Users can search for movies, view results in card format, and explore full movie details in a modal.
+**CineScope** is a sleek, dark-mode movie search application built with HTML, Bootstrap 5, and the OMDb API. Users can search for movies, view results in card format, and explore full movie details in a modal.
 
 ---
 
@@ -18,13 +18,20 @@
 
 - HTML5 + CSS3
 - Bootstrap 5
-- JavaScript (jQuery)
+- JavaScript (Vanilla / ES6+)
 - OMDb API
+
+---
 
 ## 🔑 API Key
 
-- This project uses the OMDb API (http://www.omdbapi.com/). A free API key (apikey=874a7130) is included for demonstration purposes.
-- Note: You can get your own API key here and replace it in script.js.
+This project uses the OMDb API ([http://www.omdbapi.com/](http://www.omdbapi.com/)).  
+A free demo API key (`apikey=874a7130`) is included in the code for demonstration purposes.
+
+> ⚠️ **Note:** For production, it's recommended to register and use your own API key.  
+You can get it for free here: https://www.omdbapi.com/apikey.aspx
+
+---
 
 ## 🌐 Live Demo
 
