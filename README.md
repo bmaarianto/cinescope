@@ -1,12 +1,59 @@
-# React + Vite
+# Cinescope
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi pencarian film yang memungkinkan pengguna menemukan film dengan mudah dan cepat.
 
-Currently, two official plugins are available:
+## Fitur
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Pencarian film secara real-time
+- Daftar film trending
+- Tampilan kartu film dengan detail
+- Antarmuka responsif
+- Optimasi pencarian dengan debouncing
 
-## Expanding the ESLint configuration
+## Teknologi
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19.1.0
+- React DOM 19.1.0
+- Vite 6.3.5
+- ESLint 9.25.0
+- TMDB API
+- Appwrite
+
+## Instalasi
+
+1. Clone repositori:
+
+```
+git clone https://github.com/bmaarianto/cinescope.git
+```
+
+2. Instal dependensi:
+
+```
+npm install
+```
+
+3. Buat file `.env`:
+
+```
+env
+VITE_TMDB_API_KEY =
+VITE_APPWRITE_PROJECT_ID = ""
+VITE_APPWRITE_DATABASE_ID = ""
+VITE_APPWRITE_COLLECTION_ID = ""
+VITE_APPWRITE_ENDPOINT = ""
+```
+
+4. Jalankan aplikasi:
+
+```
+npm run dev
+```
+
+## Cara Penggunaan
+
+- Buka aplikasi di browser
+- Gunakan kotak pencarian untuk mencari film
+- Lihat daftar film trending
+- Klik kartu film untuk detail lebih lanjut
+
