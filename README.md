@@ -1,42 +1,12 @@
-# CineScope 🎬
+# React + Vite
 
-**CineScope** is a sleek, dark-mode movie search application built with HTML, Bootstrap 5, and the OMDb API. Users can search for movies, view results in card format, and explore full movie details in a modal.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 🔍 Live movie search with the OMDb API
-- 🎴 Responsive movie cards with poster, title, and release year
-- 📄 Modal box for detailed movie information
-- 🌑 Clean dark mode UI for modern look
-- 📱 Fully responsive layout using Bootstrap 5
+## Expanding the ESLint configuration
 
----
-
-## 🛠️ Tech Stack
-
-- HTML5 + CSS3
-- Bootstrap 5
-- JavaScript (Vanilla / ES6+)
-- OMDb API
-
----
-
-## 🔑 API Key
-
-This project uses the OMDb API ([http://www.omdbapi.com/](http://www.omdbapi.com/)).  
-A free demo API key (`apikey=874a7130`) is included in the code for demonstration purposes.
-
-> ⚠️ **Note:** For production, it's recommended to register and use your own API key.  
-You can get it for free here: https://www.omdbapi.com/apikey.aspx
-
----
-
-## 🌐 Live Demo
-
-<p align="center">
-  <a href="https://bmaarianto.github.io/cinescope/" target="_blank">
-    🔗 <strong>Live Demo</strong>
-  </a>
-</p>
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
